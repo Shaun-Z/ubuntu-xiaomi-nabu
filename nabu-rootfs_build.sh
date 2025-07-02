@@ -6,7 +6,7 @@ then
   exit
 fi
 
-VERSION="24.04"
+VERSION="25.04"
 
 truncate -s 6G rootfs.img
 mkfs.ext4 rootfs.img
