@@ -107,6 +107,4 @@ rm -d rootdir
 
 echo 'cmdline for legacy boot: "root=PARTLABEL=linux"'
 
-chroot rootdir apt install -y p7zip-full
-
 7z a rootfs.7z rootfs.img
